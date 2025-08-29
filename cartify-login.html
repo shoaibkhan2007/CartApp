@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cartify-login.css">
+    <title>Cartify</title>
+</head>
+
+<body>
+    <p id="myDIV">
+    </p>
+    <div class="big-boss">
+        <div class="boss"> 
+
+            <div class="heading"><strong>Log In</strong></div>
+            <form id="login-form">
+                <div class="login-body">
+                    <div class="ds-1"><label id="email" for="user-Email">Email adress</label>
+                        <br />
+                        <input type="email" placeholder="Enter email" name="email" id="login-email" />
+                        <p id="foremail" class="mn" ></p>
+                    </div>
+                    <div class="ds-2">
+                        <label id="pass" for="user-password">Password</label>
+                        <br />
+                        <input type="password" placeholder="password" name="pass" id="login-password" />
+                            <button id="lik" onclick="showPass()"> Show </button>
+                            <span id="forpass" class="mn" ></span>
+
+                    </div>
+                        <div class="straight-line">
+                            <span class="creat-one-btn">
+                                No account?
+                                <a class="one" href="cartify-signup.html">Create one</a>
+                            </span>
+                        </div>
+
+                        
+                </div>
+                <div class="login-btn-cvr"> 
+                    <button id="login-btttn" onclick="login()" class="login-btn">
+                        <a id="newpge" >  Log In</a> </button>
+
+                </div>
+            </form>
+        </div>
+    </div>  
+    <script src="cartify-login.js"></script>
+</body>
+
+</html>

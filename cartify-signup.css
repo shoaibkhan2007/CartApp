@@ -1,0 +1,248 @@
+body {
+    background-image: url(ChatGPT\ Image\ Jul\ 18\,\ 2025\,\ 08_46_06\ PM.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: 1607px;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    background-position: center;
+
+}
+
+.big-boss {
+
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    color: #363232;;
+    /* margin-left: -150px; */
+    justify-content: center;
+
+
+}
+
+
+.boss {
+    width: 400px;
+    padding: 30px 20px;
+    /* background: rgba(59, 55, 55, 0.7); */
+    backdrop-filter: blur(8px);
+    border-radius: 15px;
+    box-shadow: 0 0 35px rgb(255 255 255);
+    /* border: 1px solid; */
+    /* width: 558px;
+    height: 325px; */
+}
+
+.heading {
+    padding: 6px 26px;
+    font-size: 40px;
+    color: #5d5de3;
+    color: rgb(87, 85, 85);
+    color: white;
+}
+
+.Register-body {
+    padding: 16px 7px;
+    /* border-top: 1px solid;
+    border-bottom: 1px solid beige;
+    border-bottom-style: outset;
+    border-top-style: inset; */
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-between;
+    width: 380px;
+}
+
+.as-one {
+    margin-bottom: 25px;
+}
+
+#signup-email {
+    width: 357px;;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    /* background-color: rgb(194, 194, 194); */
+    color: black;
+    padding: 6px 12px;
+    font-size: 16px;
+}
+
+#signup-password {
+    width: 320px;
+    height: 30px;
+    border-radius: 4px 0px 0px 4px;
+    border: none;
+    /* background-color: rgb(194, 194, 194); */
+    color: black;
+    padding: 6px 12px;
+    font-size: 16px;
+}
+#lik{
+    padding: 14px 2px 12px 2px;
+    margin-left: -5px;
+    border: 1px solid;
+    border-radius: 0px 4px 4px 0px;
+    background-color: #c1c1c1;
+    /* display: inline; */
+}
+#lik:hover {
+     background-color: #879376;
+}
+#first-name {
+    width: 115px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    /* background-color: rgb(194, 194, 194); */
+    color: black;
+    padding: 6px 12px;
+    font-size: 16px;
+}
+
+#last-name {
+        width: 115px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    /* background-color: rgb(194, 194, 194); */
+    color: black;
+    padding: 6px 12px;
+    font-size: 16px;
+}
+
+#confirm-password {
+    width: 357px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    /* background-color: rgb(194, 194, 194); */
+    color: black;
+    padding: 6px 12px;
+    font-size: 16px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 8px;
+    color: rgb(194, 194, 194);
+}
+
+.straight-line {
+    display: flex;
+}
+
+.one {
+    color: white;
+    color: #c3c3c3;
+    /* color: black; */
+}
+.one:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.login-btn-cvr {
+    padding: 18px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-btn {
+    cursor: pointer;
+    width: 300px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: 900;
+    color: black;
+}
+.login-btn:hover{
+    background-color: rgb(190 190 227);
+}
+#newpge {
+    text-decoration: none;
+}
+
+#myDIV {
+    display: none;
+    margin: -8px 0px 0px 120px;
+    width: 1323px;
+    /* text-align: center; */
+    padding: 22px 0px 22px 10px;
+    height: 17px;
+    background-color: rgb(194, 194, 194);
+    border-radius: 10px;
+}
+
+
+
+/* .switch {
+    position: relative;
+    bottom: 12px;
+    right: 2px;
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 29px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+/* .slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+} */
