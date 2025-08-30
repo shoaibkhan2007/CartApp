@@ -4,12 +4,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
 }
-.header{
+
+.header {
     margin: 0 auto;
     text-align: center;
     font-size: larger;
 }
-.li{
+
+.li {
     text-decoration: none;
     color: white;
     padding: 10px 15px;
@@ -17,25 +19,27 @@ body {
     border-radius: 5px;
     transition: background-color 0.3s;
 }
-.li:hover{
+
+.li:hover {
     background-color: white;
     color: black;
 }
-.footer{
-  text-align: center;
-  padding: 20px;
-  /* background-color: #f1f1f1; */
+
+.footer {
+    text-align: center;
+    padding: 20px;
 }
-a{
+
+a {
     text-decoration: none;
-  color: white;
-  font-size: 25px;
-    /* border: 1px solid #3f372c; */
+    color: white;
+    font-size: 25px;
 
 }
+
 a:hover {
-    /* border: 1px solid beige; */
+    border: 1px solid beige;
     text-decoration: underline;
     color: #879376;
-    
+
 }

@@ -1,5 +1,5 @@
 let user = JSON.parse(localStorage.getItem("loggedInUser"));
-if(!user){
+if (!user) {
   window.location.href = "cartify-login.html";
 }
 
@@ -15,9 +15,9 @@ let displayCart = () => {
   if (cartItems.length === 0) {
     cartContainer.innerHTML = '<p style="text-align: center;"> Your cart is empty.</p>';
     return;
-  } 
+  }
   else {
-  const cartHTML = cartItems.map(item => `
+    const cartHTML = cartItems.map(item => `
     <div class="somethingCrazy">
       <div id="spec" class="image-container2">
         <img src="${item.image}" class="prod-img2" />
@@ -37,20 +37,20 @@ let displayCart = () => {
   </div>
 `).join("");
 
-  let totalAmount = 0;
-  cartItems.forEach(item => {
-    totalAmount += item.price * item.quantity;
-  });
+    let totalAmount = 0;
+    cartItems.forEach(item => {
+      totalAmount += item.price * item.quantity;
+    });
 
-  cartContainer.innerHTML = cartHTML + `
+    cartContainer.innerHTML = cartHTML + `
     <div class="total-amount">
       <h3 style="text-align:center">Total Rs: ${totalAmount}</h3>
     </div>
     <div class="container-buy">
     <button class="buy-btn" onclick="proceedToPayment()"> Proceed to Pay </button>
     </div>
-  `;  
-}
+  `;
+  }
 
 }
 
@@ -59,7 +59,7 @@ let decreaseQuantity = (productId) => {
   let foundItem = cartItems.find(item => item.id === productId);
   if (foundItem.quantity > 1) {
     foundItem.quantity--;
-  } 
+  }
   localStorage.setItem('cart', JSON.stringify(cartItems));
   displayCart();
 }
@@ -76,7 +76,7 @@ let increaseQuantity = (productId) => {
   }
 
   localStorage.setItem('cart', JSON.stringify(cartItems));
-  displayCart();        
+  displayCart();
 }
 
 

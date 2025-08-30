@@ -9,53 +9,42 @@
 </head>
 
 <body>
-    
-        <div class="boss">
-            <div class="header">
-                    <div class="sep" >
-                    <span style="font-size: 30px;" >Cartify</span>
-                </div>
-                    <div class="ob" >
-                    <a href="cartify-home.html" style="font-size: 30px;" >Home</a>
-            </div >
-            <div class="ob"><a href="cartify-cart.html" id="myLink"  style="font-size: 30px;" >Cart</a></div>
+
+    <div class="boss">
+        <div class="header">
+            <div class="sep">
+                <span style="font-size: 30px;">Cartify</span>
             </div>
+            <div class="ob">
+                <a href="cartify-home.html" style="font-size: 30px;">Home</a>
+            </div>
+            <div class="ob"><a href="cartify-cart.html" id="myLink" style="font-size: 30px;">Cart</a></div>
+        </div>
 
 
-        <div class="out" >
-            <a href="cartify-login.html" id="SignOutbtn" >Sign out</a>
+        <div class="out">
+            <a href="cartify-login.html" id="SignOutbtn">Sign out</a>
         </div>
     </div>
-        <div class="dropdown">
-            <div class="ff">
-                <button class="dropbtn" onclick="dropdown()">Dropdown</button>
-                <!-- <button class="dropbtn2">Dropdown</button> -->
+    <div class="dropdown">
+        <div class="ff">
+            <button class="dropbtn" onclick="dropdown()">Dropdown</button>
 
-            </div>
-            <div id="myDropdown" class="dropdown-content">
-                <button class="we" style="background-color: #706960; color: white;"
-                    onclick="filterProducts('All')">All</button>
-                <button class="we" style="background-color: #706960; color: white;"
-                    onclick="filterProducts('Computer Accessories')">Electronics</button>
-                <button class="we" style="background-color: #706960; color: white;"
-                    onclick="filterProducts('Mobile Phoneeeeeeee')">Phone</button>
-            </div>
         </div>
-        <div id="cart-display">
-            
+        <div id="myDropdown" class="dropdown-content">
+            <button class="we" style="background-color: #706960; color: white;"
+                onclick="filterProducts('All')">All</button>
+            <button class="we" style="background-color: #706960; color: white;"
+                onclick="filterProducts('Computer Accessories')">Electronics</button>
+            <button class="we" style="background-color: #706960; color: white;"
+                onclick="filterProducts('Mobile Phoneeeeeeee')">Phone</button>
         </div>
-
-         <!-- ---------Testing------------------------------------------------------------------------------------- -->
-        <!-- <div>
-            <button class="ww" onclick="toggleButtonState()" >add to cart</button>
-        </div>
-        <div class="quantity-controls">
-        <div class="product-quantity-selector">
-        <button class="decrease-quantity" data-product-id="product1">-</button>
-        <input type="number" class="product-quantity-input" value="1" min="1" data-product-id="product1">
-        <button class="increase-quantity" data-product-id="product1">+</button>
     </div>
-    </div>  -->
+    <div id="cart-display">
+
+    </div>
+
+
     <script src="cartify-home.js"></script>
 </body>
 

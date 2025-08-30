@@ -14,7 +14,7 @@ const cartItems = [
   { id: 'p7', name: 'Iphone 12', category: 'Mobile Phoneeeeeeee', image: 'Adler Leather Pen Pot - Smoke - Standard Eco-Packaging.jpeg', price: 150, quantity: 1 },
   { id: 'p8', name: 'headphones', category: 'Computer Accessories', image: 'Adler Leather Pen Pot - Smoke - Standard Eco-Packaging.jpeg', price: 200, quantity: 1 },
   { id: 'p9', name: 'Smartwatch', category: 'Mobile Phoneeeeeeee', image: 'Adler Leather Pen Pot - Smoke - Standard Eco-Packaging.jpeg', price: 250, quantity: 1 },
-  {id: 'p10', name: 'Charger', category: 'Computer Accessories', image: 'Adler Leather Pen Pot - Smoke - Standard Eco-Packaging.jpeg', price: 300, quantity: 1 }
+  { id: 'p10', name: 'Charger', category: 'Computer Accessories', image: 'Adler Leather Pen Pot - Smoke - Standard Eco-Packaging.jpeg', price: 300, quantity: 1 }
 ];
 
 
@@ -109,7 +109,7 @@ let decreaseQuantity = (productId) => {
     if (cart[index].quantity > 1) {
       cart[index].quantity -= 1;
     } else {
-      cart.splice(index, 1); 
+      cart.splice(index, 1);
     }
     localStorage.setItem('cart', JSON.stringify(cart));
     displayproducts(cartItems);

@@ -42,16 +42,19 @@ body {
 .login-body {
     padding: 6px;
 }
-#lik{
+
+#lik {
     padding: 14px 2px 12px 2px;
     margin-left: -5px;
     border: 1px solid;
     border-radius: 0px 4px 4px 0px;
     background-color: #c1c1c1;
 }
+
 #lik:hover {
-     background-color: #879376;
+    background-color: #879376;
 }
+
 .ds-1 {
     width: 390px;
     margin-bottom: 25px;
@@ -121,7 +124,8 @@ body {
     color: rgb(216, 197, 197);
     color: black;
 }
-.login-btn:hover{
+
+.login-btn:hover {
     background-color: rgb(190 190 227);
 }
 
@@ -130,7 +134,7 @@ body {
     text-decoration: none;
 }
 
-#myDIV{
+#myDIV {
     display: none;
     margin: -8px 0px 0px 120px;
     width: 1323px;
@@ -140,7 +144,7 @@ body {
     border-radius: 10px;
 }
 
-.mn{
+.mn {
     height: 14px;
     margin: 0px;
     color: red;

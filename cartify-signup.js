@@ -1,13 +1,13 @@
 
 let showPass = () => {
   var x = document.getElementById("signup-password");
-  var f =document.getElementById("lik");
+  var f = document.getElementById("lik");
   if (x.type === "password") {
     x.type = "text";
-    f.innerHTML ="Hide";
+    f.innerHTML = "Hide";
   } else {
     x.type = "password";
-    f.innerHTML ="Show"
+    f.innerHTML = "Show"
   }
 }
 document.getElementById("lik").addEventListener("click", function (event) {
@@ -25,16 +25,16 @@ let signUp = () => {
 
 
 
-  if (!firstName || !lastName || !email || !password ) {
+  if (!firstName || !lastName || !email || !password) {
     msg.innerText = "Please fill all fields.";
     return;
   }
-   if (password !== confirmPassword) {
+  if (password !== confirmPassword) {
     msg.innerText = "Passwords do not match.";
     return;
   }
 
-  let users =  JSON.parse(localStorage.getItem("txt")) || [];
+  let users = JSON.parse(localStorage.getItem("txt")) || [];
   const userExists = users.some(user => user.email === email);
   if (userExists) {
     msg.innerText = "User with this email already exists.";

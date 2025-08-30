@@ -9,7 +9,6 @@ body {
     display: flex;
     justify-content: space-around;
     width: 1575px;
-    /* flex-direction: row-reverse; */
     margin-top: 35px;
     margin-bottom: 40px;
 }
@@ -51,13 +50,10 @@ img {
 }
 
 .item-listing {
-    /* margin-left: 66px; */
     margin-bottom: 15px;
     padding-bottom: 19px;
-    /* display: flex; */
     padding-left: 25px;
     padding-right: 25px;
-    /* margin-right: 87px; */
     border: 3px solid #3f372c;
     align-items: center;
     justify-content: space-evenly;
@@ -69,10 +65,9 @@ img {
 }
 
 #cart-display {
-        margin-left: 300px;
+    margin-left: 300px;
     margin-right: 142px;
-    display: flex
-;
+    display: flex;
     margin-top: 60px;
     flex-wrap: wrap;
 }
@@ -120,11 +115,8 @@ a:focus {
     font-size: 16px;
     border: none;
     cursor: pointer;
-    /* right: 60px; */
-    /* bottom: 0px; */
     width: 1040px;
     border-radius: 20px;
-    /* z-index: -1; */
     position: relative;
 }
 
@@ -168,9 +160,6 @@ a:focus {
     margin-left: 290px;
 }
 
-/* .showw{
-            display: none;
-        } */
 
 .ff {
     width: 1579px;
@@ -182,7 +171,6 @@ a:focus {
 
 .ws {
     padding: 7px 13px;
-    /* margin-top: 13px; */
     border-radius: 0px 17px;
     border: none;
     background-color: #847c70;
@@ -193,7 +181,6 @@ a:focus {
 
 .tf {
     padding: 7px 14px;
-    /* margin-top: 13px; */
     border-radius: 17px 0px;
     border: none;
     background-color: #847c70;
@@ -214,8 +201,7 @@ a:focus {
 .quantity-controls {
     width: 125.8px;
     margin-left: 15px;
-    margin-top: 37px;;
-    /* display: none; */
+    margin-top: 37px;
     display: flex;
     align-items: baseline;
     justify-content: center;
